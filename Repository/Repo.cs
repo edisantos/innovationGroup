@@ -13,7 +13,7 @@ namespace Repository
 {
     public class Repo:DataContexto
     {
-        public void Registrar()
+        public void Registrar(Registros reg)
         {
             try
             {
@@ -23,6 +23,13 @@ namespace Repository
                 {
                     string data = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
                     cmd.Parameters.AddWithValue("@DataRegistro", data);
+                    cmd.Parameters.AddWithValue("@SerialHDD", reg.SerialHDD);
+                    cmd.Parameters.AddWithValue("@SerialMachine", reg.SerialMachine);
+                    cmd.Parameters.AddWithValue("@SerialMachine", reg.SerialMachine);
+                    cmd.Parameters.AddWithValue("@Usuario", reg.Usuario);
+                    cmd.Parameters.AddWithValue("@FabricanteId", reg.FabricanteId);
+                    cmd.Parameters.AddWithValue("@TipoId", reg.TipoId);
+                    cmd.Parameters.AddWithValue("@Status", reg.Status);
                     cmd.ExecuteNonQuery();
                 }
             }
