@@ -17,11 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Re
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Application", "04.Application", "{37EA607D-03A4-436F-BB2F-E1D9F2ADF6E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "innovationGroup.ApplicationManager", "innovationGroup.ApplicationManager\innovationGroup.ApplicationManager.csproj", "{DCBDD5AC-A963-45C9-94E7-A781912DB8E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "innovationGroup.ApplicationManager", "innovationGroup.ApplicationManager\innovationGroup.ApplicationManager.csproj", "{DCBDD5AC-A963-45C9-94E7-A781912DB8E7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.WebAPI", "05.WebAPI", "{37DDCCF2-DBBB-4955-AC24-522001B43D69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{97047EF3-5895-4ED8-AB68-0CDB68D3D5C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{97047EF3-5895-4ED8-AB68-0CDB68D3D5C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
